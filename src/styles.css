@@ -1,0 +1,72 @@
+body {
+  font-family: "Hind Siliguri", sans-serif;
+  margin: auto;
+
+  border: black;
+}
+
+.weather {
+  border: black solid 1px;
+  background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+h1 {
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: black;
+}
+
+h3 {
+  text-align: center;
+  color: black;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+h4 {
+  text-align: center;
+  color: black;
+  padding: 10px;
+  margin: 0 auto;
+  size: 20px;
+}
+
+p {
+  text-align: center;
+  text-size-adjust: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.i {
+  text-align: center;
+  color: black;
+  size: 300px;
+}
+
+.form {
+  text-align: center;
+}
+
+.row {
+  text-align: center;
+}
+
+.Weather-Search {
+  padding: 15px;
+}
+
+#Location {
+  display: block;
+  text-align: center;
+  padding: 10px 20px;
+}

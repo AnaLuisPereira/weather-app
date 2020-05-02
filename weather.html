@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>🙂 Weather World</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <link rel="stylesheet" href="src/styles.css" />
+  <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/942b4278e8.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="weather">
+      <h1>Weather Forecast</h1>
+      <h2></h2>
+      <form class="Weather-Search">
+        <div class="row">
+          <div class="col-9">
+            <input type="text" placeholder="Enter a city" class="form-control" />
+          </div>
+          <div class="col-3">
+            <button type="button" class="btn btn-info">Search</button col-3>
+          </div>
+        </div>
+      </form>
+      <h3>Porto</h3>
+      <div class="row">
+        <div class="col-4">Max Temperature: 25ºC</div>
+        <div class="col-4">
+          <img src:"https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt:"Cloudy" />
+        </div>
+        <div class="col-4">Precipitation: 10%</div>
+        <div class="col-4"></div>
+        <div class="col-4" id="temperature">19º F/C</div>
+        <div class="col-4">Humidity: 50%</div>
+        <div class="col-4">Min temperature: 15ºC</div>
+        <div class="col-4">Parcial Cloudy</div>
+        <div class="col-4">Wind: 5 Km/h</div>
+      </div>
+      <br />
+    <div>
+      <button class="button" id="Location">Current Location</button>
+      <p>Current Location</p>
+    </div>
+      <p>Next five days...</p>
+      <div class="card-group">
+        <div class="card">
+          <i class="far fa-sun"></i>
+          <div class="card-body">
+            <h5 class="card-title">Day</h5>
+          </div>
+        </div>
+        <div class="card">
+          <i class="fas fa-cloud-moon-rain"></i>
+          <div class="card-body">
+            <h5 class="card-title">Day</h5>
+          </div>
+        </div>
+        <div class="card">
+          <i class="fas fa-cloud-showers-heavy"></i>
+          <div class="card-body">
+            <h5 class="card-title">Day</h5>
+          </div>
+        </div>
+        <div class="card">
+          <i class="fas fa-cloud-sun-rain"></i>
+          <div class="card-body">
+            <h5 class="card-title">Day</h5>
+          </div>
+        </div>
+        <div class="card">
+          <i class="fas fa-cloud"></i>
+          <div class="card-body">
+            <h5 class="card-title">Day</h5>
+          </div>
+        </div>
+      </div>
+      <br />
+      <h4>Favorite Cities</h4>
+      <div class="card group">
+        <div class="card">
+          <i class="fas fa-cloud-sun-rain"></i>
+          <div class="card-body">
+            <h5 class="card-title">City</h5>
+          </div>
+        </div>
+        <div class="card">
+          <i class="fas fa-cloud"></i>
+          <div class="card-body">
+            <h5 class="card-title">City</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="src/index.js"></script>
+</body>
+
+</html>
+
